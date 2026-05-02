@@ -28,7 +28,7 @@ You can try the app directly in your browser:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/sql-transpiler.git
+   git clone https://github.com/mfangyi/sql-transpiler.git
    cd sql-transpiler
    ```
 
@@ -53,5 +53,3 @@ This project is licensed under the **Apache License 2.0**. See the [LICENSE](LIC
 This project incorporates the following third-party software:
 
 - **sqlglot**: Licensed under the **MIT License**. See the [LICENSE](LICENSE) file for the full license text and attribution.
-
-
