@@ -1,19 +1,57 @@
-# 🎈 Blank app template
+# 🔄 SQL Transpiler
 
-A simple Streamlit app template for you to modify!
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sql-transpiler.streamlit.app/)
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+A powerful and user-friendly SQL transpiler built with [Streamlit](https://streamlit.io/) and [sqlglot](https://github.com/tobymao/sqlglot). This tool allows you to easily convert SQL queries between different dialects (e.g., MySQL to PostgreSQL, Snowflake to BigQuery, etc.) with real-time formatting and identification.
 
-### How to run it on your own machine
+## 🌐 Live Demo
 
-1. Install the requirements
+You can try the app directly in your browser:
+👉 **[sql-transpiler.streamlit.app](https://sql-transpiler.streamlit.app/)**
 
+
+## ✨ Features
+
+- **Multi-Dialect Support**: Transpile between dozens of SQL dialects.
+- **Formatting Options**: Pretty-print your SQL for better readability.
+- **Identification**: Automatically identify and quote identifiers.
+- **Interactive UI**: Real-time transpilation with a clean, modern interface.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- pip
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/sql-transpiler.git
+   cd sql-transpiler
    ```
-   $ pip install -r requirements.txt
+
+2. Install the requirements:
+   ```bash
+   pip install -r requirements.txt
    ```
 
-2. Run the app
+### Running the App
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+Run the Streamlit application:
+```bash
+streamlit run streamlit_app.py
+```
+
+## 📄 License
+
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
+
+### Third-Party Licenses
+
+This project incorporates the following third-party software:
+
+- **sqlglot**: Licensed under the **MIT License**. See the [LICENSE](LICENSE) file for the full license text and attribution.
+
+
